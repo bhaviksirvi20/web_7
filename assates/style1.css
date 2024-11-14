@@ -1,0 +1,548 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: "Poppins", sans-serif; */
+}
+
+.main {
+    width: 100%;
+    height: 950px;
+    /* border: 1px solid; */
+}
+
+.back {
+    height: 1000px;
+    width: 100%;
+    background-image: url(./45d10e_0cf11e50d6b54a96b3f52305dae1f132.jpg);
+    /* position: fixed; */
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    background-attachment: fixed;
+    border: 1px solid;
+}
+
+.nav {
+    height: 150px;
+    width: 60%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 20%;
+}
+
+.nav .left {
+    height: 150px;
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+.left .a img {
+    height: 60%;
+    width: 16%;
+    margin-top: 28px;
+    /* background-color: rgb(5, 73, 73); */
+    position: absolute;
+}
+
+.left .b {
+    width: 100%;
+    height: 90px;
+    /* background-color: bisque; */
+    margin-left: 90px;
+    margin-top: 60px;
+}
+
+.left .b a {
+    height: 60%;
+    width: 80%;
+    padding-top: 20px;
+    /* background-color: rgb(16, 221, 221); */
+    margin-left: 10px;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(175, 160, 112);
+    letter-spacing: 0.5px;
+}
+
+.left .b a:hover {
+    cursor: pointer;
+    color: rgb(129, 117, 104);
+}
+
+
+/* ---------------------------------------------------------------- */
+
+.nav .right {
+    height: 150px;
+    width: 50%;
+    /* background-color: rgb(132, 0, 255); */
+}
+
+.c {
+    height: 100px;
+    width: 40%;
+    /* background-color: yellow; */
+    display: flex;
+    margin-left: 300px;
+}
+
+.i {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+p {
+    margin-top: 70px;
+    margin-left: 20px;
+    color: rgb(175, 160, 112);
+    font-size: 20px;
+}
+
+.h {
+    margin-top: 55px;
+    margin-left: 20px;
+}
+
+
+/* ------------------------------------------------------------------ */
+
+.hero1 {
+    margin-top: 250px;
+    /* background-color: green; */
+    margin-left: 220px;
+    position: fixed;
+    font-size: 20px;
+    position: relative;
+}
+
+.hero {
+    height: 650px;
+    width: 55%;
+    border: 15px solid white;
+    margin-inline: 381.1px;
+    margin-top: -400px;
+    margin-left: 420px;
+    position: absolute;
+    /* background-color: aqua; */
+}
+
+.sub1 {
+    height: 200px;
+    width: 100%;
+    /* background-color: tomato; */
+    /* margin-top: 20px; */
+}
+
+.sub1 .x img {
+    height: 80px;
+    width: 8%;
+    margin-top: 80px;
+    margin-left: 46%;
+    /* background-color: aqua; */
+}
+
+.sub1 p {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: -80px;
+    left: 200px;
+    letter-spacing: 2px;
+    margin-left: 23.5%;
+}
+
+.sub1 .y {
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    margin-top: -150px;
+}
+
+.sub1 .y #sirvi {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(0, 249, 166); */
+    font-size: 60px;
+    color: white;
+    font-family: "Great Vibes", cursive;
+    /* margin-left: -350px; */
+    top: 10px;
+    letter-spacing: 5px;
+    position: relative;
+    padding-left: 300px;
+}
+
+.sub1 .y h1 {
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(0, 249, 166); */
+    font-size: 60px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin-left: 260px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.sub1 .y button {
+    height: 50px;
+    width: 20%;
+    background-color: transparent;
+    color: white;
+    margin-left: 410px;
+    margin-top: 50px;
+    border: 2px solid white;
+    font-size: 15px;
+    transition: 2s;
+}
+
+.sub1 .y button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.hero2 {
+    margin-top: 250px;
+    /* background-color: green; */
+    margin-left: 1200px;
+    position: fixed;
+    font-size: 20px;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+/* -------------------------------------------------------- */
+
+.main .main12345 {
+    height: 1080px;
+    width: 100%;
+    /* background-color: rgb(119, 230, 234); */
+    position: relative;
+}
+
+.a h1 {
+    height: 50px;
+    width: 10%;
+    /* background-color: rgb(255, 140, 0); */
+    color: rgb(209, 174, 131);
+    /* border: 1px solid; */
+    padding-inline: 20px;
+    margin-inline: 850px;
+    padding-top: 5px;
+    position: absolute;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+
+.b {
+    height: 50px;
+    width: 3%;
+    /* background-color: rgb(67, 37, 0); */
+    padding-inline: 30px;
+    margin-inline: 850px;
+    position: absolute;
+    margin-top: 60px;
+    border-bottom: 5px solid rgb(209, 174, 131);
+    margin-left: 905px;
+}
+
+.c h2 {
+    height: 50px;
+    width: 30%;
+    /* background-color: rgb(67, 37, 0); */
+    position: absolute;
+    margin-top: 130px;
+    color: rgb(113, 85, 51);
+    margin-left: 470px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.d {
+    height: 280px;
+    /* width: 242px; */
+    width: 1000px;
+    /* background-color: aquamarine; */
+    margin-left: 450px;
+    margin-top: 150px;
+    display: flex;
+}
+
+.a1 {
+    height: 280px;
+    width: 280px;
+    /* background-color: rgb(6, 89, 61); */
+    margin-left: 35px;
+    /* margin-top: 100px; */
+    background-image: url(./providence-white-pink-flamingo-square-outdoor-throw-pillow-17.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.a2 {
+    height: 280px;
+    width: 280px;
+    /* background-color: rgb(6, 89, 61); */
+    margin-left: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./61oNQHHU+NL._AC_UF894\,1000_QL80_.jpg);
+}
+
+.a3 {
+    height: 280px;
+    width: 280px;
+    /* background-color: rgb(6, 89, 61); */
+    margin-left: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./file.jpg);
+}
+
+.e {
+    height: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 390px;
+    margin-top: 20px;
+    /* background-color: violet; */
+}
+
+
+/* ---------------------------------------------------------- */
+
+.e #a1 {
+    width: 15em;
+    border: none;
+    background-color: transparent;
+    color: rgb(175, 160, 112);
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.e #a1 span {
+    transition: opacity 0.2s ease;
+    display: inline;
+}
+
+.e #a1:hover span {
+    opacity: 0;
+}
+
+.e #a1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(175, 160, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    font-family: "Poppins", sans-serif;
+    z-index: 1;
+}
+
+.e #a1:hover::before {
+    content: "View details!";
+    opacity: 1;
+}
+
+.e #a2 {
+    width: 15em;
+    border: none;
+    background-color: transparent;
+    color: rgb(175, 160, 112);
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.e #a2 span {
+    transition: opacity 0.2s ease;
+    display: inline;
+}
+
+.e #a2:hover span {
+    opacity: 0;
+}
+
+.e #a2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(175, 160, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    font-family: "Poppins", sans-serif;
+    z-index: 1;
+}
+
+.e #a2:hover::before {
+    content: "View details!";
+    opacity: 1;
+}
+
+.e #a3 {
+    width: 15em;
+    border: none;
+    background-color: transparent;
+    color: rgb(175, 160, 112);
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.e #a3 span {
+    transition: opacity 0.2s ease;
+    display: inline;
+}
+
+.e #a3:hover span {
+    opacity: 0;
+}
+
+.e #a3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(175, 160, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    font-family: "Poppins", sans-serif;
+    z-index: 1;
+}
+
+.e #a3:hover::before {
+    content: "View details!";
+    opacity: 1;
+}
+
+.f #ab {
+    padding: 15px 60px;
+    border: 1px solid rgb(175, 160, 112);
+    color: rgb(176 161 111);
+    transition: 3s;
+}
+
+.f #ab:hover {
+    background: rgb(175, 160, 112);
+    color: white;
+}
+
+.f {
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.g {
+    border-top: 2px solid rgb(176, 169, 149);
+}
+
+.BH {
+    height: 50PX;
+    width: 100%;
+    /* background-color: aqua; */
+    font-size: 30px;
+    padding-left: 900px;
+    margin-top: 50px;
+}
+
+h5 {
+    height: 20px;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    padding-left: 875px;
+    font-size: 20px;
+    color: rgb(175, 160, 112);
+    font-weight: 500;
+}
+
+.av {
+    height: 50px;
+    width: 100%;
+    /* background-color: blue; */
+    padding-left: 750px;
+    margin-top: 20px;
+}
+
+.av input {
+    padding-block: 10px;
+    /* padding-inline: 100px; */
+    padding-left: 10px;
+    padding-right: 250px;
+    color: rgb(175, 160, 112);
+}
+
+::placeholder {
+    color: rgb(175, 160, 112);
+}
+
+.ik {
+    height: 50px;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.ik button {
+    padding-inline: 167px;
+    margin-left: 750px;
+    padding-block: 10px;
+    color: white;
+    background-color: rgb(175, 160, 112);
+    transition: 1s;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid black;
+}
+
+.ik button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(175, 160, 112);
+}
+
+h3 {
+    height: 20px;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    padding-left: 780px;
+    font-size: 16px;
+    color: rgb(175, 160, 112);
+    font-weight: 500;
+    padding-top: 50px;
+}
